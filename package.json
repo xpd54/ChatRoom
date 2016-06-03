@@ -4,9 +4,10 @@
   "description": "Minimalist multi-room chat server",
   "dependencies": {
     "socket.io": "~0.9.6",
-    "mime": "~1.2.7"
+    "mime": "~1.2.7",
+    "jshint": "^2.6.0"
   },
   "scripts": {
-  	"test": "./test/helloFirstTest.js"
+  	"test": "./node_modules/jshint/bin/jshint ./test/helloFirstTest.js"
   }
 }
